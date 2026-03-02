@@ -25,4 +25,4 @@ public class ProductoDAO {
         }
     }
 }
-// Lógica de persistencia
+// Lógica de persistencia// Actualizacion de busqueda
