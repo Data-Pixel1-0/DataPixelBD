@@ -20,4 +20,5 @@ public class ConexionBD {
         }
     }
 }
+// Gestión de pool de conexiones - Por: Stivensson
 //resolvido por kenner 
