@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Pixel Web</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Registro de Inventario - Data Pixel</h1>
+        <hr>
+        <form action="ControladorProducto" method="POST">
+            <label>Nombre del Producto:</label><br>
+            <input type="text" name="txtNombre" required><br><br>
+            
+            <label>Código de Barras:</label><br>
+            <input type="text" name="txtCodigo" required><br><br>
+            
+            <label>Cantidad en Stock:</label><br>
+            <input type="number" name="txtStock" required><br><br>
+            
+            <button type="submit">Guardar en Base de Datos.</button>
+        </form>
+    </body>
+</html>
