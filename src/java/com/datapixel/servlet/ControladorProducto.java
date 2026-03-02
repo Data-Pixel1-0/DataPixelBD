@@ -13,6 +13,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
+// Creación de instancia de Producto
 @WebServlet(name = "ControladorProducto", urlPatterns = {"/ControladorProducto"})
 public class ControladorProducto extends HttpServlet {
 
