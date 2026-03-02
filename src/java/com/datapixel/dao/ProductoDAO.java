@@ -10,6 +10,7 @@ import java.sql.PreparedStatement;
 
 public class ProductoDAO {
     public void crear(String codigo, String nombre, int stock) {
+        // SQL optimizado
         String sql = "INSERT INTO productos (codigo_barras, nombre, stock) VALUES (?, ?, ?)";
         try (Connection con = ConexionBD.getConexion(); 
              PreparedStatement ps = con.prepareStatement(sql)) {
