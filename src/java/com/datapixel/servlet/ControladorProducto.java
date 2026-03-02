@@ -37,6 +37,7 @@ public class ControladorProducto extends HttpServlet {
             }
         }
 
+       // Redirección a la vista de éxito
         // 3. Respuesta visual
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
